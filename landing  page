@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" section-content>
+            <a href="#" class="nav-logo">
+            <h2 class="logo-text">☕ Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+             <button id="menu-open-button">
+
+             <i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special Coffee!</h3>
+                    <p class="description"> Welcome to our Coffee paradise, where every bean tells a story and every cup sparks joy.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button Contact-us">Contact us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="coffe.png" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper"><img src="about.png" class="about-image"></div>
+                <div class="about-details">
+                
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">
+                   Welcome to our coffee haven, where every cup is crafted with passion and precision.  
+                   We believe coffee is more than just a drink — it's an experience that brings people together. 
+                  From carefully selected beans to perfectly brewed flavors, we are dedicated to delivering 
+                  quality and comfort in every sip. Whether you're starting your day or taking a break, 
+                  our coffee is here to make your moments special.</p>
+               <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+               </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="menu-section">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-items">
+                        <img src="hot bever.jpg" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Wide range of streaming hot coffee to make you fresh and light.</p>
+                    </li>
+                    <li class="menu-items">
+                        <img src="cold bever.jpg" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Creamy and frothy cold coffee to make you cool</p>
+                    </li>
+                    <li class="menu-items">
+                        <img src="frenchfries.jpg" class="menu-image">
+                        <h3 class="name">Burger & French Fries</h3>
+                        <p class="text">Quick bites to satisfy your small size hynger.</p>
+                    </li>
+                    <li class="menu-items">
+                        <img src="refresh.jpg" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Fruit and icy refreshing drink to make feel and refresh.</p>
+                    </li>
+                    <li class="menu-items">
+                        <img src="combo.jpg" class="menu-image">
+                        <h3 class="name">special combo</h3>
+                        <p class="text">Your favourite eating and drinking combations.</p>
+                    </li>
+                    <li class="menu-items">
+                        <img src="dessert.jpg" class="menu-image">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Satiate your palate and take you a culinary treat.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="testimonials" class="testimonials-section">
+        <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="swiper-wrapper">
+
+                        
+                            <div class="testimonials swiper-slide">
+                                <img src="user.jpg" class="user-image">
+                             <h3 class="name">Sarah Johnson</h3>
+                             <i class="feedback">"Loved the French roast.Perfectly balanced and rich. will order again!"</i>
+                            </li>
+                            <div class="testimonials swiper-slide">
+                                <img src="user2.jpg" class="user-image">
+                             <h3 class="name">Emily Harris</h3>
+                             <i class="feedback">"Excellent quality! Fresh beans and quick delivery.Highly recommend."</i>
+                            </div>
+                            <div class="testimonials swiper-slide">
+                                <img src="user3.jpg" class="user-image">
+                             <h3 class="name">Anthony </h3>
+                             <i class="feedback">"Best decaf i've tried! Smooth and flavorful.Arrived promptly"</i>
+                            </div>
+
+                        <div class="swiper-pagination"></div>
+                     
+                
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery-section">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="g.jpg"class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="g2.jpg"class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="g3.jpg"class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="g4.jpg"class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="strawb.jpg"class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="orang.jpg"class="gallery-image">
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="contact-section" id="contact">
+    <div class="section-content">
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-details">
+                <h3>Get In Touch</h3>
+
+                <p><strong>📍 Address:</strong> 123 Coffee Street, chennai,india</p>
+
+                <p><strong>📞 Phone:</strong> +1 234 567 890</p>
+
+                <p><strong>📧 Email:</strong> coffeeshop@email.com</p>
+
+                <p><strong>🕒 Opening Hours:</strong></p>
+                <ul>
+                    <li>Monday - Friday: 8:00 AM - 10:00 PM</li>
+                    <li>Saturday - Sunday: 9:00 AM - 11:00 PM</li>
+                </ul>
+            </div>
+
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+            </form>
+
+        </div>
+    </div>
+</section>
+    </main>
+       
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="script.js"></script>
+     <script>
+const openBtn = document.getElementById("menu-open-button");
+const closeBtn = document.getElementById("menu-close-button");
+
+openBtn.onclick = () => document.body.classList.add("show-mobile-menu");
+closeBtn.onclick = () => document.body.classList.remove("show-mobile-menu");
+</script>
+</body>
+</html>
